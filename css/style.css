@@ -32,6 +32,7 @@ header {
     -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
 }
 
 #siteLogo {
@@ -76,20 +77,20 @@ header {
 /*BODY STYLING*/
 
 body {
-    background-color: white;
+    background-color: #fff;
 }
 
 #mainColumns {
-
+    margin-top: 50px;
 }
 
 #mainColumns div {
     background-color: #eee;
-    padding: 200px;
-    margin: 75px;
+    border: 2px solid #aaa;
+/*    padding: 400px;
     border: 2px solid #aaa;
     border-radius: 30px;
     -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);*/
 }
