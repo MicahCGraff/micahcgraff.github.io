@@ -25,6 +25,11 @@ html {
     margin: 0 auto;
 }
 
+body {
+    font-family: "Slabo 27px", "Open Sans", sans-serif, arial, helvetica;
+    background-color: #fff;
+}
+
 /*HEADER STYLING*/
 
 header {
@@ -76,10 +81,6 @@ header {
 
 /*BODY STYLING*/
 
-body {
-    background-color: #fff;
-}
-
 #mainColumns {
     margin-top: 75px;
 }
@@ -96,6 +97,7 @@ body {
 footer {
     border-top: 2px solid #aaa;
     text-align: center;
+    background-color: #eee;
 }
 
 footer a {
@@ -109,5 +111,5 @@ footer a img {
 }
 
 footer p {
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
