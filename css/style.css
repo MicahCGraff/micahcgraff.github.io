@@ -27,6 +27,10 @@ header {
     background-color: #eee;
 }
 
+#siteLogo {
+    margin: 20px;
+}
+
 #dropMenu {
     margin: 20px;
     float: right;
