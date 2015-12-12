@@ -40,6 +40,19 @@ header {
     width: 200px;
 }
 
+#dropMenuContent {
+
+}
+
+#dropMenuContent a {
+    text-decoration: none;
+}
+
+#dropMenuContent a p {
+    font-size: 22px;
+    text-align: center;
+}
+
 /*BODY STYLING*/
 
 #mainColumns div {
@@ -54,33 +67,33 @@ header {
 /*DROPDOWN STYLING*/
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+/*.dropdown-content {
     display: none;
     position: absolute;
     background-color: #eee;
     min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+}*/
 
 /* Links inside the dropdown */
-.dropdown-content a {
+/*.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+}*/
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
+/*.dropdown-content a:hover {
     background-color: #ccc
-}
+}*/
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
     display: block;
-}
+}*/
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+/*.dropdown:hover .dropbtn {
     border: 1px solid black;
-}
+}*/
