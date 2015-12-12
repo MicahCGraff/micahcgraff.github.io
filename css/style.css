@@ -81,16 +81,16 @@ body {
 }
 
 #mainColumns {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 #mainColumns div {
     background-color: #eee;
     border: 2px solid #aaa;
-/*    padding: 400px;
-    border: 2px solid #aaa;
-    border-radius: 30px;
-    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    padding-bottom: 1300px;
+    margin-bottom: 60px;
+/*    border-radius: 30px;*/
+/*    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);*/
 }
