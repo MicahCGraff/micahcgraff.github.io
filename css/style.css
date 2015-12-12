@@ -89,8 +89,25 @@ body {
     border: 2px solid #aaa;
     padding-bottom: 1300px;
     margin-bottom: 60px;
-/*    border-radius: 30px;*/
-/*    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);*/
+}
+
+/*FOOTER STYLING*/
+
+footer {
+    border-top: 2px solid #aaa;
+    text-align: center;
+}
+
+footer a {
+    margin: 50px;
+}
+
+footer a img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+footer p {
+    margin-bottom: 15px;
 }
