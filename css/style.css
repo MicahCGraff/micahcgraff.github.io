@@ -24,15 +24,18 @@
 /*HEADER STYLING*/
 
 header {
-    background-color: #eee;
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #siteLogo {
-    margin: 20px;
+    margin: 15px;
 }
 
 #dropMenu {
-    margin: 20px;
+    margin: 15px 15px 25px 15px;
     float: right;
 }
 
@@ -41,16 +44,26 @@ header {
 }
 
 #dropMenuContent {
-
+/*    position: absolute;*/
+/*    border-top: 2px solid #aaa;*/
+    padding: 20px;
+    background-color: #eee;
 }
 
-#dropMenuContent a {
-    text-decoration: none;
+#dropMenuContent ul {
+    border-top: 2px solid #aaa;
 }
 
-#dropMenuContent a p {
-    font-size: 22px;
+#dropMenuContent ul li {
     text-align: center;
+    border-bottom: 2px solid #aaa;
+    padding: 20px;
+}
+
+#dropMenuContent ul li a {
+    text-decoration: none;
+    font-size: 60px;
+    color: black;
 }
 
 /*BODY STYLING*/
