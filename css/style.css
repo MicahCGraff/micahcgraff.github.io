@@ -21,6 +21,10 @@
     display: none;
 }
 
+html {
+    margin: 0 auto;
+}
+
 /*HEADER STYLING*/
 
 header {
@@ -44,8 +48,8 @@ header {
 }
 
 #dropMenuContent {
-/*    position: absolute;*/
-/*    border-top: 2px solid #aaa;*/
+    position: absolute;
+    width: 100%;
     padding: 20px;
     background-color: #ececec;
 }
@@ -69,7 +73,9 @@ header {
 /*BODY STYLING*/
 
 #mainColumns div {
-    width: 100px;
+/*    padding: 200px;
+    margin: 5px;
+    background-color: #eee;*/
 }
 
 
