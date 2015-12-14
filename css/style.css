@@ -125,8 +125,10 @@ footer p {
 
 /*MEDIA QUERIES*/
 
+/*SMARTPHONE AND TABLET QUERIES*/
+
 /*Smartphone Landscape*/
-@media (max-device-width: 700px) and (max-device-height: 400px) {
+@media (max-width: 700px) and (max-height: 400px) {
 
     #siteLogo {
         width: 110px;
