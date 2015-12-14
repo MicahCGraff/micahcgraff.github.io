@@ -122,3 +122,30 @@ footer a img {
 footer p {
     padding-bottom: 15px;
 }
+
+/*MEDIA QUERIES*/
+
+/*Smartphones (portrait)*/
+@media only screen and (max-width : 320px) {
+    #siteLogo {
+        width: 100px;
+    }
+
+    #dropMenu {
+
+    }
+
+    #dropMenuImg {
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
