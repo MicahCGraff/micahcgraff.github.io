@@ -1,34 +1,141 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
 <head>
-	<title>Chapter 8 Self Assessment</title>
-
-  	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-  	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-  	
+	<title>Assignment 16</title>
 </head>
 <body>
-	<h1>Micah Graff</h1>
-	<h1>Professor Li</h1>
-	<h1>CS 250 - Assignment 14</h1>
-	<ol>
-		<li>Buy-Side</li>
-		<li>D</li>
-		<li>False</li>
-		<li>A</li>
-		<li>B</li>
-		<li>True</li>
-		<li>B</li>
-		<li>.mobi</li>
-		<li>B</li>
-		<li>Electronic Retailing</li>
-		<li>False</li>
-		<li>Barter</li>
-		<li>Payment Card Industry</li>
-		<li>Commerce</li>
-		<li>True</li>
-		<li>B</li>
-		<li>True</li>
-	</ol>
+	<h3>Movie Input:</h3>
+	<form id="movieInfo">
+		<label for="movieTitle">Movie Title:</label>
+		<input required type="text" placeholder="Deadpool" name="movieTitle">
+
+		<label for="movieRating">Rating:</label>
+		<select name="movieRating">
+			<option value="G">G</option>
+			<option value="PG">PG</option>
+			<option value="PG-13">PG-13</option>
+			<option value="R">R</option>
+			<option value="NR">NR</option>
+		</select>
+
+		<label for="movieCost">Cost per Day:</label>
+		<input required type="text" placeholder="1.99" name="movieCost">
+
+		<input type="submit" name="submitMovie" value="Submit Movie">
+	</form>
+	<h3>Customer Input:</h3>
+	<form id="customerInfo">
+		<label for="customerName">Full Name:</label>
+		<input required type="text" placeholder="John Doe" name="customerName">
+
+		<label for="customerAddress">Street Address:</label>
+		<input required type="text" placeholder="123 4th St" name="customerAddress">
+
+		<label for="customerAddress2">City - State - Zip:</label>
+		<input required type="text" placeholder="Bellevue, WA 98004" name="customerAddress2">
+
+		<input type="submit" name="submitCustomer" value="Submit Customer">
+	</form>
+	<h3>Order Input:</h3>
+	<form id="orderInfo">
+		<label for="customerName">Full Name:</label>
+		<input required type="text" placeholder="John Doe" name="customerName">
+
+		<label for="movieTitle">Movie Title:</label>
+		<input required type="text" placeholder="Deadpool" name="movieTitle">
+		<label for="date">Date:</label>
+		<input required type="date" name="date">
+
+		<input type="submit" name="sumbitOrder" value="Sumbmit Order">
+	</form>
+	<div id="movies">
+		<h3>Movie Table:</h3>
+		<table style="width:100%">
+			<th>Movie Title</th>
+			<th>Movie Rating</th>
+			<th>Cost per Day</th>
+			<tr>
+				<td>Deadpool</td>
+				<td>R</td>
+				<td>1.99</td>
+			</tr>
+			<tr>
+				<td>The Hangover</td>
+				<td>R</td>
+				<td>2.30</td>
+			</tr>
+			<tr>
+				<td>Jungle Book</td>
+				<td>PG</td>
+				<td>3.10</td>
+			</tr>
+			<tr>
+				<td>Zootopia</td>
+				<td>PG</td>
+				<td>2.95</td>
+			</tr>
+			<tr>
+				<td>The Darkness</td>
+				<td>PG-13</td>
+				<td>.85</td>
+			</tr>
+		</table>
+	</div>
+	<h3>Customer Table:</h3>
+	<div id="customers">
+		<table style="width:100%">
+			<th>Full Name</th>
+			<th>Street Address</th>
+			<th>City, State, Zip</th>
+			<tr>
+				<td>Micah Graff</td>
+				<td>123 4th St</td>
+				<td>Bellevue, WA 98004</td>
+			</tr>
+			<tr>
+				<td>Brooke Carson</td>
+				<td>1122 123th St</td>
+				<td>Kirkland, WA 98053</td>
+			</tr>
+			<tr>
+				<td>David Durst</td>
+				<td>3214 Parkway Ave</td>
+				<td>Sammamish, WA 98024</td>
+			</tr>
+		</table>
+	</div>
+	<h3>Order Table:</h3>
+	<div id="orders">
+		<table style="width:100%">
+			<th>Full Name</th>
+			<th>Movie Title</th>
+			<th>Date</th>
+			<tr>
+				<td>Micah Graff</td>
+				<td>Deadpool</td>
+				<td>02/28/16</td>
+			</tr>
+			<tr>
+				<td>Brooke Carson</td>
+				<td>The Hangover</td>
+				<td>03/02/16</td>
+			</tr>
+			<tr>
+				<td>Micah Graff</td>
+				<td>Jungle Book</td>
+				<td>05/14/16</td>
+			</tr>
+			<tr>
+				<td>David Durst</td>
+				<td>Zootopia</td>
+				<td>05/29/16</td>
+			</tr>
+			<tr>
+				<td>The Darkness</td>
+				<td>The Darkness</td>
+				<td>06/01/16</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
